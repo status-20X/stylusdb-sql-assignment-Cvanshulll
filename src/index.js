@@ -17,6 +17,7 @@ function evaluateCondition(row, clause) {
 
         return regex.test(row[field]);
     }
+    
 
     switch (operator) {
         case '=':  return row[field] == value;
